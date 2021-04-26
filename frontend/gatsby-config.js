@@ -2,6 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: "frontend",
+    siteUrl:""
   },
   proxy: {
     prefix: "/api",
