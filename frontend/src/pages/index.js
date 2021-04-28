@@ -1,7 +1,8 @@
-import 'React' from 'react'
+import * as React from "react"
 
-export default function SignUp(){
-
-
-    return <div>build test</div>
+const IndexPage = () => {
+    return (<div>
+        test
+    </div>)
 }
+export default IndexPage
