@@ -1,7 +1,8 @@
 import React, { useCallback, useState } from 'react';
 import axios from  'axios';
 import useSwr from 'swr';
-import { Form } from '../../components/LoginForm/styles';
+import { Form } from '../components/LoginForm/styles';
+import Seo from '../components/Seo';
 
 export default function SignUp(){
 
@@ -33,6 +34,7 @@ export default function SignUp(){
 
     return (
         <div>
+             <Seo title="민코딩 회원가입 페이지"></Seo>
             <Form onSubmit={onSubmit}>
                 <input type="text" value={email} onChange = {onChangeEmail} />
                 <input type="password" value={password} onChange = {onChangePassword} />
