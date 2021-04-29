@@ -4,7 +4,7 @@ import Seo from '../components/Seo';
 const IndexPage = () => {
     return (<div>
         <Seo title="민코딩 연구소"></Seo>
-        test
+        민코딩 연구소 analytics TEST
     </div>)
 }
 export default IndexPage
